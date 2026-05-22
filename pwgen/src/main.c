@@ -3,7 +3,7 @@
 int main(void)
 {
     srand(time(NULL));
-    int res, ch;
+    int res = 0, ch = 0;
     int char_num, pw_num;
     int useLowers, useUppers, useDigits, useSigns, useSpecialSigns;
     check_char_num(res, ch, &char_num);
